@@ -10,3 +10,7 @@ commands:
     description: Current plugin information
     usage: /serverstats info
     permission: serverstats.info
+  create:
+    description: Create test user
+    usage: /serverstats create
+    permission: serverstats.create

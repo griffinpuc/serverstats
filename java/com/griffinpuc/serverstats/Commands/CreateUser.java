@@ -7,11 +7,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CommandInfo implements CommandExecutor {
+public class CreateUser implements CommandExecutor {
 
     DatabaseConnection connection;
 
-    public CommandInfo(DatabaseConnection connection){
+    public CreateUser(DatabaseConnection connection){
         this.connection = connection;
     }
 
@@ -20,7 +20,6 @@ public class CommandInfo implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            player.sendMessage("Server Stats Plugin v1.0 BETA");
 
         }
 
