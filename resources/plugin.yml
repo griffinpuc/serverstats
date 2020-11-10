@@ -1,0 +1,12 @@
+name: Serverstats
+version: ${project.version}
+main: com.griffinpuc.serverstats.Serverstats
+api-version: 1.16
+authors: [ griffinpuc ]
+website: griffinpuc.github.io
+
+commands:
+  info:
+    description: Current plugin information
+    usage: /serverstats info
+    permission: serverstats.info
